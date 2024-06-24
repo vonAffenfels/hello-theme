@@ -13,5 +13,4 @@ Thumbs.db
 *.map
 yarn.lock
 assets/js/
-*.css
 *.zip

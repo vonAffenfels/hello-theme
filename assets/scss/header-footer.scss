@@ -1,4 +1,6 @@
-@import "reset/variables";
-@import "theme/header";
-@import "theme/footer";
-@import "theme/navigation";
+.rahmentemplate-content {
+	@import "reset/variables";
+	@import "theme/header";
+	@import "theme/footer";
+	@import "theme/navigation";
+}

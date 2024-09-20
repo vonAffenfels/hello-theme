@@ -1,6 +1,9 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 var __webpack_exports__ = {};
+/*!**************************************************!*\
+  !*** ./assets/dev/js/frontend/hello-frontend.js ***!
+  \**************************************************/
 
 
 class elementorHelloThemeHandler {
@@ -73,3 +76,4 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 /******/ })()
 ;
+//# sourceMappingURL=hello-frontend.js.map

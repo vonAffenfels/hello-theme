@@ -1,10 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./assets/dev/js/admin/components/action-links.js":
-/*!********************************************************!*\
-  !*** ./assets/dev/js/admin/components/action-links.js ***!
-  \********************************************************/
+/***/ 222:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -42,28 +39,25 @@ exports.ActionLinks = ActionLinks;
 
 /***/ }),
 
-/***/ "./assets/dev/js/admin/pages/settings-page.js":
-/*!****************************************************!*\
-  !*** ./assets/dev/js/admin/pages/settings-page.js ***!
-  \****************************************************/
+/***/ 3:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__(836);
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 exports.SettingsPage = void 0;
-var _react = __webpack_require__(/*! react */ "react");
-var _notices = __webpack_require__(/*! @wordpress/notices */ "@wordpress/notices");
-var _data = __webpack_require__(/*! @wordpress/data */ "@wordpress/data");
-var _i18n = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n");
-var _api = _interopRequireDefault(__webpack_require__(/*! @wordpress/api */ "@wordpress/api"));
-var _components = __webpack_require__(/*! @wordpress/components */ "@wordpress/components");
-var _settingsPanel = __webpack_require__(/*! ./../panels/settings-panel.js */ "./assets/dev/js/admin/panels/settings-panel.js");
-var _actionLinksPanel = __webpack_require__(/*! ../panels/action-links-panel.js */ "./assets/dev/js/admin/panels/action-links-panel.js");
+var _react = __webpack_require__(196);
+var _notices = __webpack_require__(961);
+var _data = __webpack_require__(818);
+var _i18n = __webpack_require__(736);
+var _api = _interopRequireDefault(__webpack_require__(101));
+var _components = __webpack_require__(609);
+var _settingsPanel = __webpack_require__(230);
+var _actionLinksPanel = __webpack_require__(995);
 const Notices = () => {
   const notices = (0, _data.useSelect)(select => select(_notices.store).getNotices().filter(notice => 'snackbar' === notice.type), []);
   const {
@@ -160,10 +154,7 @@ exports.SettingsPage = SettingsPage;
 
 /***/ }),
 
-/***/ "./assets/dev/js/admin/panels/action-links-panel.js":
-/*!**********************************************************!*\
-  !*** ./assets/dev/js/admin/panels/action-links-panel.js ***!
-  \**********************************************************/
+/***/ 995:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -173,8 +164,8 @@ Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 exports.ActionLinksPanel = void 0;
-var _i18n = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n");
-var _actionLinks = __webpack_require__(/*! ../components/action-links.js */ "./assets/dev/js/admin/components/action-links.js");
+var _i18n = __webpack_require__(736);
+var _actionLinks = __webpack_require__(222);
 const actionLinks = {
   'install-elementor': {
     image: helloAdminData.templateDirectoryURI + '/assets/images/elementor.svg',
@@ -219,10 +210,7 @@ exports.ActionLinksPanel = ActionLinksPanel;
 
 /***/ }),
 
-/***/ "./assets/dev/js/admin/panels/settings-panel.js":
-/*!******************************************************!*\
-  !*** ./assets/dev/js/admin/panels/settings-panel.js ***!
-  \******************************************************/
+/***/ 230:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -232,8 +220,8 @@ Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 exports.SettingsPanel = void 0;
-var _i18n = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n");
-var _components = __webpack_require__(/*! @wordpress/components */ "@wordpress/components");
+var _i18n = __webpack_require__(736);
+var _components = __webpack_require__(609);
 const SettingsPanel = ({
   SETTINGS,
   settingsData,
@@ -299,10 +287,7 @@ exports.SettingsPanel = SettingsPanel;
 
 /***/ }),
 
-/***/ "./assets/dev/js/admin/hello-admin.scss":
-/*!**********************************************!*\
-  !*** ./assets/dev/js/admin/hello-admin.scss ***!
-  \**********************************************/
+/***/ 100:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -312,10 +297,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "React" ***!
-  \************************/
+/***/ 196:
 /***/ ((module) => {
 
 "use strict";
@@ -323,10 +305,7 @@ module.exports = window["React"];
 
 /***/ }),
 
-/***/ "@wordpress/api":
-/*!*****************************!*\
-  !*** external ["wp","api"] ***!
-  \*****************************/
+/***/ 101:
 /***/ ((module) => {
 
 "use strict";
@@ -334,10 +313,7 @@ module.exports = window["wp"]["api"];
 
 /***/ }),
 
-/***/ "@wordpress/components":
-/*!************************************!*\
-  !*** external ["wp","components"] ***!
-  \************************************/
+/***/ 609:
 /***/ ((module) => {
 
 "use strict";
@@ -345,10 +321,7 @@ module.exports = window["wp"]["components"];
 
 /***/ }),
 
-/***/ "@wordpress/data":
-/*!******************************!*\
-  !*** external ["wp","data"] ***!
-  \******************************/
+/***/ 818:
 /***/ ((module) => {
 
 "use strict";
@@ -356,10 +329,7 @@ module.exports = window["wp"]["data"];
 
 /***/ }),
 
-/***/ "@wordpress/element":
-/*!*********************************!*\
-  !*** external ["wp","element"] ***!
-  \*********************************/
+/***/ 307:
 /***/ ((module) => {
 
 "use strict";
@@ -367,10 +337,7 @@ module.exports = window["wp"]["element"];
 
 /***/ }),
 
-/***/ "@wordpress/i18n":
-/*!******************************!*\
-  !*** external ["wp","i18n"] ***!
-  \******************************/
+/***/ 736:
 /***/ ((module) => {
 
 "use strict";
@@ -378,10 +345,7 @@ module.exports = window["wp"]["i18n"];
 
 /***/ }),
 
-/***/ "@wordpress/notices":
-/*!*********************************!*\
-  !*** external ["wp","notices"] ***!
-  \*********************************/
+/***/ 961:
 /***/ ((module) => {
 
 "use strict";
@@ -389,10 +353,7 @@ module.exports = window["wp"]["notices"];
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
-  \**********************************************************************/
+/***/ 836:
 /***/ ((module) => {
 
 function _interopRequireDefault(obj) {
@@ -447,14 +408,11 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
 "use strict";
-/*!********************************************!*\
-  !*** ./assets/dev/js/admin/hello-admin.js ***!
-  \********************************************/
 
 
-__webpack_require__(/*! ./hello-admin.scss */ "./assets/dev/js/admin/hello-admin.scss");
-var _element = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
-var _settingsPage = __webpack_require__(/*! ./pages/settings-page.js */ "./assets/dev/js/admin/pages/settings-page.js");
+__webpack_require__(100);
+var _element = __webpack_require__(307);
+var _settingsPage = __webpack_require__(3);
 const App = () => {
   return /*#__PURE__*/React.createElement(_settingsPage.SettingsPage, null);
 };
@@ -468,4 +426,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=hello-admin.js.map

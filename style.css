@@ -14,152 +14,32 @@
 	Text Domain: hello-elementor
 	Tags: accessibility-ready, flexible-header, custom-colors, custom-menu, custom-logo, featured-images, rtl-language-support, threaded-comments, translation-ready,
 */
-.rahmentemplate-content {
-  /**
-   * Loading first in the style.scss & classic-editor.scss
-   */
-  /**
-  * Document basic styling
-  * Inspired by Normalize.css, HTML5 Boilerplate & Bootstrap Reboot Projects under MIT License
-   */
-  /**
-   * 1. Correct the line height in all browsers.
-   * 2. Prevent adjustments of font size after orientation changes in iOS.
-   * 3. Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`.
-   */
-  /* Sections
-   */
-  /**
-   * Correct the font size and margin on `h1` elements within `section` and
-   * `article` contexts in Chrome, Firefox, and Safari.
-   */
-  /* Grouping content
-   */
-  /**
-   * 1. Add the correct box sizing in Firefox.
-   * 2. Show the overflow in Edge and IE.
-   */
-  /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
-   */
-  /* Text-level semantics
-   */
-  /**
-   * 1. Remove the bottom border in Chrome 57-
-   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
-   */
-  /**
-   * Add the correct font weight in Chrome, Edge, and Safari.
-   */
-  /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
-   */
-  /**
-   * Add the correct font size in all browsers.
-   */
-  /**
-   * Prevent `sub` and `sup` elements from affecting the line height in
-   * all browsers.
-   */
-  /* Embedded content
-   */
-  /**
-   * Remove the border on images inside links in IE 10.
-   */
-  /* Interactive
-   */
-  /*
-   * Add the correct display in Edge, IE 10+, and Firefox.
-   */
-  /*
-   * Add the correct display in all browsers.
-   */
-  /* Misc
-   */
-  /**
-   * Add the correct display in IE 10+.
-   */
-  /**
-   * Add the correct display in IE 10.
-   */
-  /* Print
-   */
-  /**
-   * Form styling
-   */
-  /**
-   * 1. Change the font styles in all browsers.
-   * 2. Remove the margin in Firefox and Safari.
-   */
-  /**
-   * Show the overflow in IE.
-   * 1. Show the overflow in Edge.
-   */
-  /**
-   * Remove the inheritance of text transform in Edge, Firefox, and IE.
-   * 1. Remove the inheritance of text transform in Firefox.
-   */
-  /**
-   * Correct the inability to style clickable types in iOS and Safari.
-   */
-  /**
-   * Remove the inner border and padding in Firefox.
-   */
-  /**
-   * Restore the focus styles unset by the previous rule.
-   */
-  /**
-   * Correct the padding in Firefox.
-   */
-  /**
-   * 1. Correct the text wrapping in Edge and IE.
-   * 2. Correct the color inheritance from `fieldset` elements in IE.
-   * 3. Remove the padding so developers are not caught out when they zero out
-   *    `fieldset` elements in all browsers.
-   */
-  /**
-   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
-   */
-  /**
-   * Remove the default vertical scrollbar in IE 10+.
-   */
-  /**
-   * 1. Add the correct box sizing in IE 10.
-   * 2. Remove the padding in IE 10.
-   */
-  /**
-   * Correct the cursor style of increment and decrement buttons in Chrome.
-   */
-  /**
-   * 1. Correct the odd appearance in Chrome and Safari.
-   * 2. Correct the outline style in Safari.
-   */
-  /**
-   * Remove the inner padding in Chrome and Safari on macOS.
-   */
-  /**
-   * 1. Correct the inability to style clickable types in iOS and Safari.
-   * 2. Change font properties to `inherit` in Safari.
-   */
-  /**
-   * Table styling
-   */
-  /**
-   * List styling
-   */
-}
-.rahmentemplate-content html {
+/**
+ * Loading first in the style.scss & classic-editor.scss
+ */
+/**
+* Document basic styling
+* Inspired by Normalize.css, HTML5 Boilerplate & Bootstrap Reboot Projects under MIT License
+ */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 3. Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`.
+ */
+html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
-.rahmentemplate-content *,
-.rahmentemplate-content *::before,
-.rahmentemplate-content *::after {
+
+*,
+*::before,
+*::after {
   box-sizing: border-box; /* 3 */
 }
-.rahmentemplate-content body {
+
+/* Sections
+ */
+body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
@@ -170,7 +50,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.rahmentemplate-content h1, .rahmentemplate-content h2, .rahmentemplate-content h3, .rahmentemplate-content h4, .rahmentemplate-content h5, .rahmentemplate-content h6 {
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1, h2, h3, h4, h5, h6 {
   margin-block-start: 0.5rem;
   margin-block-end: 1rem;
   font-family: inherit;
@@ -178,238 +63,347 @@
   line-height: 1.2;
   color: inherit;
 }
-.rahmentemplate-content h1 {
+
+h1 {
   font-size: 2.5rem;
 }
-.rahmentemplate-content h2 {
+
+h2 {
   font-size: 2rem;
 }
-.rahmentemplate-content h3 {
+
+h3 {
   font-size: 1.75rem;
 }
-.rahmentemplate-content h4 {
+
+h4 {
   font-size: 1.5rem;
 }
-.rahmentemplate-content h5 {
+
+h5 {
   font-size: 1.25rem;
 }
-.rahmentemplate-content h6 {
+
+h6 {
   font-size: 1rem;
 }
-.rahmentemplate-content p {
+
+p {
   margin-block-start: 0;
   margin-block-end: 0.9rem;
 }
-.rahmentemplate-content hr {
+
+/* Grouping content
+ */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
   box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
 }
-.rahmentemplate-content pre {
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
   white-space: pre-wrap;
 }
-.rahmentemplate-content a {
+
+/* Text-level semantics
+ */
+a {
   background-color: transparent;
   text-decoration: none;
   color: #CC3366;
 }
-.rahmentemplate-content a:hover, .rahmentemplate-content a:active {
+a:hover, a:active {
   color: #333366;
 }
-.rahmentemplate-content a:not([href]):not([tabindex]) {
+a:not([href]):not([tabindex]) {
   color: inherit;
   text-decoration: none;
 }
-.rahmentemplate-content a:not([href]):not([tabindex]):hover, .rahmentemplate-content a:not([href]):not([tabindex]):focus {
+a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
   color: inherit;
   text-decoration: none;
 }
-.rahmentemplate-content a:not([href]):not([tabindex]):focus {
+a:not([href]):not([tabindex]):focus {
   outline: 0;
 }
-.rahmentemplate-content abbr[title] {
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
   border-block-end: none; /* 1 */
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted; /* 2 */
 }
-.rahmentemplate-content b,
-.rahmentemplate-content strong {
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
   font-weight: bolder;
 }
-.rahmentemplate-content code,
-.rahmentemplate-content kbd,
-.rahmentemplate-content samp {
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
-.rahmentemplate-content small {
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
   font-size: 80%;
 }
-.rahmentemplate-content sub,
-.rahmentemplate-content sup {
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
-.rahmentemplate-content sub {
+
+sub {
   bottom: -0.25em;
 }
-.rahmentemplate-content sup {
+
+sup {
   top: -0.5em;
 }
-.rahmentemplate-content img {
+
+/* Embedded content
+ */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
   border-style: none;
   height: auto;
   max-width: 100%;
 }
-.rahmentemplate-content details {
+
+/* Interactive
+ */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
   display: block;
 }
-.rahmentemplate-content summary {
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
   display: list-item;
 }
-.rahmentemplate-content figcaption {
+
+figcaption {
   font-size: 16px;
   color: #333333;
   line-height: 1.4;
   font-style: italic;
   font-weight: 400;
 }
-.rahmentemplate-content template {
+
+/* Misc
+ */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
   display: none;
 }
-.rahmentemplate-content [hidden] {
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
   display: none;
 }
+
+/* Print
+ */
 @media print {
-  .rahmentemplate-content *,
-  .rahmentemplate-content *:before,
-  .rahmentemplate-content *:after {
+  *,
+  *:before,
+  *:after {
     background: transparent !important;
     color: #000 !important; /* Black prints faster */
     box-shadow: none !important;
     text-shadow: none !important;
   }
-  .rahmentemplate-content a,
-  .rahmentemplate-content a:visited {
+  a,
+  a:visited {
     text-decoration: underline;
   }
-  .rahmentemplate-content a[href]:after {
+  a[href]:after {
     content: " (" attr(href) ")";
   }
-  .rahmentemplate-content abbr[title]:after {
+  abbr[title]:after {
     content: " (" attr(title) ")";
   }
-  .rahmentemplate-content a[href^="#"]:after,
-  .rahmentemplate-content a[href^="javascript:"]:after {
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
     content: "";
   }
-  .rahmentemplate-content pre {
+  pre {
     white-space: pre-wrap !important;
   }
-  .rahmentemplate-content pre,
-  .rahmentemplate-content blockquote {
+  pre,
+  blockquote {
     -moz-column-break-inside: avoid;
          break-inside: avoid;
     border: 1px solid #cccccc;
   }
-  .rahmentemplate-content thead {
+  thead {
     display: table-header-group;
   }
-  .rahmentemplate-content tr,
-  .rahmentemplate-content img {
+  tr,
+  img {
     -moz-column-break-inside: avoid;
          break-inside: avoid;
   }
-  .rahmentemplate-content p,
-  .rahmentemplate-content h2,
-  .rahmentemplate-content h3 {
+  p,
+  h2,
+  h3 {
     orphans: 3;
     widows: 3;
   }
-  .rahmentemplate-content h2,
-  .rahmentemplate-content h3 {
+  h2,
+  h3 {
     -moz-column-break-after: avoid;
          break-after: avoid;
   }
 }
-.rahmentemplate-content label {
+/**
+ * Form styling
+ */
+label {
   display: inline-block;
   line-height: 1;
   vertical-align: middle;
 }
-.rahmentemplate-content button,
-.rahmentemplate-content input,
-.rahmentemplate-content optgroup,
-.rahmentemplate-content select,
-.rahmentemplate-content textarea {
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
   font-family: inherit; /* 1 */
   font-size: 1rem; /* 1 */
   line-height: 1.5; /* 1 */
   margin: 0; /* 2 */
 }
-.rahmentemplate-content input[type=text],
-.rahmentemplate-content input[type=date],
-.rahmentemplate-content input[type=email],
-.rahmentemplate-content input[type=number],
-.rahmentemplate-content input[type=password],
-.rahmentemplate-content input[type=search],
-.rahmentemplate-content input[type=tel],
-.rahmentemplate-content input[type=url],
-.rahmentemplate-content select,
-.rahmentemplate-content textarea {
+
+input[type=text],
+input[type=date],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=url],
+select,
+textarea {
   width: 100%;
   border: solid 1px #666666;
   border-radius: 3px;
   padding: 0.5rem 1rem;
   transition: all 0.3s;
 }
-.rahmentemplate-content input[type=text]:focus,
-.rahmentemplate-content input[type=date]:focus,
-.rahmentemplate-content input[type=email]:focus,
-.rahmentemplate-content input[type=number]:focus,
-.rahmentemplate-content input[type=password]:focus,
-.rahmentemplate-content input[type=search]:focus,
-.rahmentemplate-content input[type=tel]:focus,
-.rahmentemplate-content input[type=url]:focus,
-.rahmentemplate-content select:focus,
-.rahmentemplate-content textarea:focus {
+input[type=text]:focus,
+input[type=date]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=url]:focus,
+select:focus,
+textarea:focus {
   border-color: #333333;
 }
-.rahmentemplate-content button,
-.rahmentemplate-content input { /* 1 */
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
   overflow: visible;
 }
-.rahmentemplate-content button,
-.rahmentemplate-content select { /* 1 */
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
   text-transform: none;
 }
-.rahmentemplate-content button,
-.rahmentemplate-content [type=button],
-.rahmentemplate-content [type=reset],
-.rahmentemplate-content [type=submit] {
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
   width: auto;
   -webkit-appearance: button;
 }
-.rahmentemplate-content button::-moz-focus-inner,
-.rahmentemplate-content [type=button]::-moz-focus-inner,
-.rahmentemplate-content [type=reset]::-moz-focus-inner,
-.rahmentemplate-content [type=submit]::-moz-focus-inner {
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
-.rahmentemplate-content button:-moz-focusring,
-.rahmentemplate-content [type=button]:-moz-focusring,
-.rahmentemplate-content [type=reset]:-moz-focusring,
-.rahmentemplate-content [type=submit]:-moz-focusring {
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
-.rahmentemplate-content button,
-.rahmentemplate-content [type=submit],
-.rahmentemplate-content [type=button] {
+
+button,
+[type=submit],
+[type=button] {
   display: inline-block;
   font-weight: 400;
   color: #CC3366;
@@ -425,29 +419,40 @@
   border-radius: 3px;
   transition: all 0.3s;
 }
-.rahmentemplate-content button:focus,
-.rahmentemplate-content [type=submit]:focus,
-.rahmentemplate-content [type=button]:focus {
+button:focus,
+[type=submit]:focus,
+[type=button]:focus {
   outline: 5px auto -webkit-focus-ring-color;
 }
-.rahmentemplate-content button:hover, .rahmentemplate-content button:focus,
-.rahmentemplate-content [type=submit]:hover,
-.rahmentemplate-content [type=submit]:focus,
-.rahmentemplate-content [type=button]:hover,
-.rahmentemplate-content [type=button]:focus {
+button:hover, button:focus,
+[type=submit]:hover,
+[type=submit]:focus,
+[type=button]:hover,
+[type=button]:focus {
   color: #ffffff;
   background-color: #CC3366;
   text-decoration: none;
 }
-.rahmentemplate-content button:not(:disabled),
-.rahmentemplate-content [type=submit]:not(:disabled),
-.rahmentemplate-content [type=button]:not(:disabled) {
+button:not(:disabled),
+[type=submit]:not(:disabled),
+[type=button]:not(:disabled) {
   cursor: pointer;
 }
-.rahmentemplate-content fieldset {
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
-.rahmentemplate-content legend {
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
   box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
   display: table; /* 1 */
@@ -455,37 +460,73 @@
   padding: 0; /* 3 */
   white-space: normal; /* 1 */
 }
-.rahmentemplate-content progress {
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
   vertical-align: baseline;
 }
-.rahmentemplate-content textarea {
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
   overflow: auto;
   resize: vertical;
 }
-.rahmentemplate-content [type=checkbox],
-.rahmentemplate-content [type=radio] {
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
-.rahmentemplate-content [type=number]::-webkit-inner-spin-button,
-.rahmentemplate-content [type=number]::-webkit-outer-spin-button {
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
-.rahmentemplate-content [type=search] {
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
-.rahmentemplate-content [type=search]::-webkit-search-decoration {
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-.rahmentemplate-content ::-webkit-file-upload-button {
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
-.rahmentemplate-content select {
+
+select {
   display: block;
 }
-.rahmentemplate-content table {
+
+/**
+ * Table styling
+ */
+table {
   background-color: transparent;
   width: 100%;
   margin-block-end: 15px;
@@ -493,64 +534,68 @@
   border-spacing: 0;
   border-collapse: collapse;
 }
-.rahmentemplate-content table th,
-.rahmentemplate-content table td {
+table th,
+table td {
   padding: 15px;
   line-height: 1.5;
   vertical-align: top;
   border: 1px solid rgba(128, 128, 128, 0.5019607843);
 }
-.rahmentemplate-content table th {
+table th {
   font-weight: bold;
 }
-.rahmentemplate-content table thead th,
-.rahmentemplate-content table tfoot th {
+table thead th,
+table tfoot th {
   font-size: 1em;
 }
-.rahmentemplate-content table caption + thead tr:first-child th,
-.rahmentemplate-content table caption + thead tr:first-child td,
-.rahmentemplate-content table caption + thead tr:first-child th,
-.rahmentemplate-content table caption + thead tr:first-child td,
-.rahmentemplate-content table colgroup + thead tr:first-child th,
-.rahmentemplate-content table colgroup + thead tr:first-child td,
-.rahmentemplate-content table colgroup + thead tr:first-child th,
-.rahmentemplate-content table colgroup + thead tr:first-child td,
-.rahmentemplate-content table thead:first-child tr:first-child th,
-.rahmentemplate-content table thead:first-child tr:first-child td,
-.rahmentemplate-content table thead:first-child tr:first-child th,
-.rahmentemplate-content table thead:first-child tr:first-child td {
+table caption + thead tr:first-child th,
+table caption + thead tr:first-child td,
+table caption + thead tr:first-child th,
+table caption + thead tr:first-child td,
+table colgroup + thead tr:first-child th,
+table colgroup + thead tr:first-child td,
+table colgroup + thead tr:first-child th,
+table colgroup + thead tr:first-child td,
+table thead:first-child tr:first-child th,
+table thead:first-child tr:first-child td,
+table thead:first-child tr:first-child th,
+table thead:first-child tr:first-child td {
   border-block-start: 1px solid rgba(128, 128, 128, 0.5019607843);
 }
-.rahmentemplate-content table tbody > tr:nth-child(odd) > td,
-.rahmentemplate-content table tbody > tr:nth-child(odd) > th {
+table tbody > tr:nth-child(odd) > td,
+table tbody > tr:nth-child(odd) > th {
   background-color: rgba(128, 128, 128, 0.0705882353);
 }
-.rahmentemplate-content table tbody tr:hover > td,
-.rahmentemplate-content table tbody tr:hover > th {
+table tbody tr:hover > td,
+table tbody tr:hover > th {
   background-color: rgba(128, 128, 128, 0.1019607843);
 }
-.rahmentemplate-content table tbody + tbody {
+table tbody + tbody {
   border-block-start: 2px solid rgba(128, 128, 128, 0.5019607843);
 }
 @media (max-width: 767px) {
-  .rahmentemplate-content table table {
+  table table {
     font-size: 0.8em;
   }
-  .rahmentemplate-content table table th,
-  .rahmentemplate-content table table td {
+  table table th,
+  table table td {
     padding: 7px;
     line-height: 1.3;
   }
-  .rahmentemplate-content table table th {
+  table table th {
     font-weight: 400;
   }
 }
-.rahmentemplate-content dl,
-.rahmentemplate-content dt,
-.rahmentemplate-content dd,
-.rahmentemplate-content ol,
-.rahmentemplate-content ul,
-.rahmentemplate-content li {
+
+/**
+ * List styling
+ */
+dl,
+dt,
+dd,
+ol,
+ul,
+li {
   margin-block-start: 0;
   margin-block-end: 0;
   border: 0;

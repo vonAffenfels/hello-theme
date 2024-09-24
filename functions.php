@@ -114,6 +114,10 @@ if ( ! function_exists( 'hello_elementor_display_header_footer' ) ) {
 	}
 }
 
+add_filter('hello-theme/scoped-css-class', function() {
+	return 'rahmentemplate-content';
+});
+
 if ( ! function_exists( 'hello_elementor_scripts_styles' ) ) {
 	/**
 	 * Theme Scripts & Styles.
@@ -126,7 +130,7 @@ if ( ! function_exists( 'hello_elementor_scripts_styles' ) ) {
 		if ( apply_filters( 'hello_elementor_enqueue_style', true ) ) {
 			wp_enqueue_style(
 				'hello-elementor',
-				get_template_directory_uri() . '/style' . $min_suffix . '.css',
+				get_template_directory_uri()  . '/style' . (apply_filters('hello-theme/enable-scoped-css', false) ? '_rahmentemplate' : '') . $min_suffix . '.css',
 				[],
 				HELLO_ELEMENTOR_VERSION
 			);
@@ -135,7 +139,7 @@ if ( ! function_exists( 'hello_elementor_scripts_styles' ) ) {
 		if ( apply_filters( 'hello_elementor_enqueue_theme_style', true ) ) {
 			wp_enqueue_style(
 				'hello-elementor-theme-style',
-				get_template_directory_uri() . '/theme' . $min_suffix . '.css',
+				get_template_directory_uri() . '/theme' . (apply_filters('hello-theme/enable-scoped-css', false) ? '_rahmentemplate' : '') . $min_suffix . '.css',
 				[],
 				HELLO_ELEMENTOR_VERSION
 			);
